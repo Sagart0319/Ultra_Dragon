@@ -27,7 +27,10 @@ mv actualfilename renamefilename
 # Folder inside folder will create
 mkdir -p a/b/c/d
 
+# > - single redirection / overide the data when enter the data second time / first time written data will overide
+echo "write the content of the file" > file name
 
+# 
 
 # check the public ip of Ec2
 curl ifconfig.me
