@@ -1,2 +1,17 @@
-linux
+# To create 0 byte file (Empty file)
+touch file name
+
+
+# Folder inside folder will create
+mkdir -p a/b/c/d
+
+
+
+# To check the public ip of Ec2
+curl ifconfig.me
+
+# To check the private ip of Ec2
+hostname
+hostname -I | awk '{print $1}'
+
 
