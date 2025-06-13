@@ -30,7 +30,25 @@ mkdir -p a/b/c/d
 # > - single redirection / overide the data when enter the data second time / first time written data will overide
 echo "write the content of the file" > file name
 
-# 
+# >> - double redirection / dont overide the data when enter the data second time
+echo "write the content of the file" > file name
+
+# import the data in the file / import the logs in the file
+-> If you mamnager said send the filelist on the location - might be 800 files in this case
+ll > file name
+ps -ef > file name
+
+# check the processing files
+ps -ef
+
+# check the list of files
+ls
+
+# check the long list files (we can see file permissions / time stamp)
+ll
+
+# switch to root user
+sudo su -
 
 # check the public ip of Ec2
 curl ifconfig.me
