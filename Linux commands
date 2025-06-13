@@ -7,6 +7,23 @@ touch a b c d
 # delete the file
 rm file name
 
+- create directory
+mkdir test
+
+- create multiple directories
+mkdir a b c d
+
+- delete the directory
+rm -rf folder name
+
+- delete all the directories
+rm -rf*
+
+- move the file from one place to another place 
+- rename the file
+mv file name /path of the file
+mv actualfilename renamefilename
+
 # Folder inside folder will create
 mkdir -p a/b/c/d
 
