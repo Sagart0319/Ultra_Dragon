@@ -1,0 +1,27 @@
+# git config --list -> Show current configuration "user name" and "mail id"
+
+# git config --global user.name / git config --global user.sagar -> "Your Name"
+
+# git config --global user.email -> "you@example.com"
+
+# git init -> Initialize a new Git repository (To create .git file)
+
+# git status -> Check status of changes
+
+# git add "file name" -> To add file in the git
+
+# git commit -m "Message" -> To add message to the process
+
+# git log -> To track the commit history
+
+# git remote -v -> To check the remote repository details
+
+# git remote add origin  https://github.com/Sagart0319/Testing.git -> Add branch to remote repository
+
+# git push -u origin master -> Push the file to Master branch
+
+# git fetch origin
+
+# git branch --list -> To check the branch list
+
+# git checkout "Branch name" -> To switch one branch to another branch
