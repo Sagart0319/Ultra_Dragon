@@ -145,6 +145,12 @@ x - execute = 1
 
 chmod 777 file name -> full access
 
+#change the owner permissions
+chown ec2-user:ec2-user filename
+
+chown - change owner permission
+ec2-user - owners / Mention the required user name to change the permissions
+
 chmod -> 
 # check the public ip of Ec2
 curl ifconfig.me
