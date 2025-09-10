@@ -4,7 +4,7 @@ pwd
 #List of files
 ls
 
-#long list
+#long list / It will show files & folders, execution permissions, memory
 ll
 
 #change directory
@@ -22,6 +22,36 @@ cd ~
 
 # / -> root related users will appear here
 # ~ -> home directory (User's related data will be here)
+
+#what we have used commands will be appear here
+history
+
+#It will show the today date
+date
+
+#Go to desktop
+cd /users/desktop
+
+#Show the list of hidden files
+ls -a
+
+#To create the file/ Text editors 
+vi / nano / vim
+I -> for insert
+:wq! -> to save the file
+:%d -> To delete the content in the file
+
+#To view the content of the file
+cat
+
+#copy the files
+cp
+
+#To view hidden files
+ls -a
+
+#To remove the file in hidden format
+mv .zebra zebra
 
 # create 0 byte file (Empty file)
 touch file name
@@ -56,7 +86,22 @@ mkdir -p a/b/c/d
 echo "write the content of the file" > file name
 
 # >> - double redirection / dont overide the data when enter the data second time
-echo "write the content of the file" > file name
+echo "write the content of the file" >> file name
+
+#Check the word count of the file
+wc
+wc -l -> show the data lines count
+
+#Print top 5 lines in the file
+head -5 filename
+
+#Print last 2 lines in the file
+tail -2 file name
+
+#Grep command is used for search paticular key word in the file
+grep
+grep d filename
+d -> file data will be print
 
 # import the data in the file / import the logs in the file
 -> If you mamnager said send the filelist on the location - might be 800 files in this case
@@ -75,6 +120,32 @@ ll
 # switch to root user
 sudo su -
 
+#check the user details
+cat /etc/passwd
+
+#opreating system details
+cat /etc/os-release
+
+#cpu info
+cat /proc/cpuinfo
+
+#to check logs
+tail -f /var/log/messages
+
+#change the file permissions
+rwx-rwx-rwx
+
+rwx - owner
+rwx - user
+rwx - group / others
+
+r - read = 4
+w - write = 2
+x - execute = 1
+
+chmod 777 file name -> full access
+
+chmod -> 
 # check the public ip of Ec2
 curl ifconfig.me
 
