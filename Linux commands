@@ -1,3 +1,28 @@
+#Present working directory / To check current location
+pwd 
+
+#List of files
+ls
+
+#long list
+ll
+
+#change directory
+cd
+
+#one step back from folder
+cd ..
+--> 2 steps back cd ../..
+
+#Root directory
+cd /
+
+#Home directory
+cd ~
+
+# / -> root related users will appear here
+# ~ -> home directory (User's related data will be here)
+
 # create 0 byte file (Empty file)
 touch file name
 
