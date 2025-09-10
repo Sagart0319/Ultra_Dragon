@@ -110,6 +110,7 @@ ps -ef > file name
 
 # check the processing files
 ps -ef
+ps -ef | grep httpd -> To filterout the data grep command is useful
 
 # check the list of files
 ls
@@ -131,6 +132,40 @@ cat /proc/cpuinfo
 
 #to check logs
 tail -f /var/log/messages
+
+#compress the folder
+tar -cvf test.tar foldername
+
+-cvf -> create verbose file
+test.tar -> new zip name want to create
+
+#To unzip
+tar -xvf filename
+
+#Cpu utilization
+top
+
+#show the memory
+free -m
+
+#check the folder structure
+tree
+
+#To print the opeating system name
+uname -a\
+
+#print the current user
+id
+
+#disk free/ file system/ available space
+df
+df -h
+
+#disk free -> human reable format
+du -sk
+
+#check running port
+netstat -na
 
 #change the file permissions
 rwx-rwx-rwx
@@ -159,4 +194,4 @@ curl ifconfig.me
 hostname
 hostname -I | awk '{print $1}'
 
-
+#
